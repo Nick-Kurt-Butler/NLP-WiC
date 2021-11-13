@@ -1,3 +1,5 @@
 Questions about Wic Project
 -----------------------------
 1.) What do the start/end numbers represent in train/test/val data?
+
+2.) Should we keep the LSTMs separate or combine them?
