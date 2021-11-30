@@ -1,0 +1,5 @@
+wget https://dl.fbaipublicfiles.com/fairseq/models/roberta.base.tar.gz
+tar -xzvf roberta.base.tar.gz
+
+pip install fairseq
+pip install bitarray
