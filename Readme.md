@@ -21,6 +21,10 @@ Accuracy: 66.8%
   <img align="center" src="https://github.com/Nick-Kurt-Butler/NLP-WiC/blob/final/epoch 2.png"/>
 </p>
 
+To Run Code: 
+
+Use the RoBerta.ipynb file to run the finalized code.
+
 
 
 Our end model was heavily based upon the code shown by resource 1. We used the code shown by resource 1 and proceeded to change parameters and use our own training, testing, and value data. We went through step-by-step in the code and made alterations to what we believed could be improved, overall focusing on learning how a WiC model can be implemented and how the parameters can be changed to affect the output. 
