@@ -18,7 +18,7 @@ Goal: WiC is used to determine whether two sentences with two different occurren
 
 Accuracy: 66.8%
 <p align="center">
-  <img align="center" src="https://github.com/Nick-Kurt-Butler/NLP-WiC/blob/final/epoch 2.png"/>
+  <img align="center" src="https://github.com/Nick-Kurt-Butler/NLP-WiC/blob/main/epoch 2.png"/>
 </p>
 
 To Run Code: 
