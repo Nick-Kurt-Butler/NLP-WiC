@@ -16,9 +16,9 @@ Grading Scale
 
 Goal: WiC is used to determine whether two sentences with two different occurrences of the same word correspond to the same meaning or not. 
 
-Accuracy: 66.8%
+Accuracy: 70.9%
 <p align="center">
-  <img align="center" src="https://github.com/Nick-Kurt-Butler/NLP-WiC/blob/main/epoch 2.png"/>
+  <img align="center" src="https://github.com/Nick-Kurt-Butler/NLP-WiC/blob/main/Epoch 6 - Best Result.png"/>
 </p>
 
 To Run Code: 
