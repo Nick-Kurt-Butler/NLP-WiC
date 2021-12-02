@@ -1,0 +1,249 @@
+Training epoch #1
+/tmp/ipykernel_716/4179931766.py:35: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  logits = self.softmax(self.linear_seperator(layer1_results))
+/home/arinard/.local/lib/python3.8/site-packages/pytorch_transformers/optimization.py:166: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at  ../torch/csrc/utils/python_arg_parser.cpp:1050.)
+  exp_avg.mul_(beta1).add_(1.0 - beta1, grad)
+		Training Batch 10: Loss: 0.6926242113113403; Accuracy: 0.53125
+		Training Batch 20: Loss: 0.6947644352912903; Accuracy: 0.5
+		Training Batch 30: Loss: 0.6976891756057739; Accuracy: 0.59375
+		Training Batch 40: Loss: 0.6930834054946899; Accuracy: 0.59375
+		Training Batch 50: Loss: 0.6902619004249573; Accuracy: 0.4375
+		Training Batch 60: Loss: 0.6937728524208069; Accuracy: 0.46875
+		Training Batch 70: Loss: 0.6829476356506348; Accuracy: 0.6875
+		Training Batch 80: Loss: 0.6894336342811584; Accuracy: 0.53125
+		Training Batch 90: Loss: 0.6788446307182312; Accuracy: 0.59375
+		Training Batch 100: Loss: 0.6814977526664734; Accuracy: 0.65625
+		Training Batch 110: Loss: 0.6697793006896973; Accuracy: 0.59375
+		Training Batch 120: Loss: 0.6848355531692505; Accuracy: 0.5625
+		Training Batch 130: Loss: 0.6859109401702881; Accuracy: 0.5625
+		Training Batch 140: Loss: 0.6424288749694824; Accuracy: 0.59375
+		Training Batch 150: Loss: 0.652489423751831; Accuracy: 0.65625
+		Training Batch 160: Loss: 0.6818639636039734; Accuracy: 0.65625
+		Training Batch 170: Loss: 0.6583741903305054; Accuracy: 0.7
+Training:
+	Loss: 0.682835761238547; Accuracy: 0.5759926470588236
+		Validation Batch 10: Loss: 0.6864540576934814; Accuracy: 0.59375
+		Validation Batch 20: Loss: 0.6484234929084778; Accuracy: 0.6666666666666666
+Validation:
+	Loss=0.6558272778987885; Accuracy: 0.6395833333333333
+Training epoch #2
+		Training Batch 10: Loss: 0.6293536424636841; Accuracy: 0.71875
+		Training Batch 20: Loss: 0.6245498061180115; Accuracy: 0.71875
+		Training Batch 30: Loss: 0.555311381816864; Accuracy: 0.8125
+		Training Batch 40: Loss: 0.5611016154289246; Accuracy: 0.71875
+		Training Batch 50: Loss: 0.6259533762931824; Accuracy: 0.625
+		Training Batch 60: Loss: 0.6355135440826416; Accuracy: 0.65625
+		Training Batch 70: Loss: 0.5704407095909119; Accuracy: 0.71875
+		Training Batch 80: Loss: 0.5138117074966431; Accuracy: 0.8125
+		Training Batch 90: Loss: 0.6474760174751282; Accuracy: 0.65625
+		Training Batch 100: Loss: 0.6868872046470642; Accuracy: 0.5625
+		Training Batch 110: Loss: 0.626397967338562; Accuracy: 0.625
+		Training Batch 120: Loss: 0.6532260179519653; Accuracy: 0.625
+		Training Batch 130: Loss: 0.605566680431366; Accuracy: 0.6875
+		Training Batch 140: Loss: 0.5293963551521301; Accuracy: 0.75
+		Training Batch 150: Loss: 0.537912130355835; Accuracy: 0.8125
+		Training Batch 160: Loss: 0.5678942799568176; Accuracy: 0.65625
+		Training Batch 170: Loss: 0.6604610085487366; Accuracy: 0.6
+Training:
+	Loss: 0.5869600622092976; Accuracy: 0.7140073529411765
+		Validation Batch 10: Loss: 0.6708052158355713; Accuracy: 0.59375
+		Validation Batch 20: Loss: 0.5780337452888489; Accuracy: 0.6666666666666666
+Validation:
+	Loss=0.6169706881046295; Accuracy: 0.6677083333333333
+Training epoch #3
+		Training Batch 10: Loss: 0.48933956027030945; Accuracy: 0.8125
+		Training Batch 20: Loss: 0.6340858340263367; Accuracy: 0.625
+		Training Batch 30: Loss: 0.49700263142585754; Accuracy: 0.78125
+		Training Batch 40: Loss: 0.5284261703491211; Accuracy: 0.78125
+		Training Batch 50: Loss: 0.43466317653656006; Accuracy: 0.875
+		Training Batch 60: Loss: 0.5502064824104309; Accuracy: 0.75
+		Training Batch 70: Loss: 0.4362398684024811; Accuracy: 0.875
+		Training Batch 80: Loss: 0.5224699974060059; Accuracy: 0.78125
+		Training Batch 90: Loss: 0.5351207256317139; Accuracy: 0.78125
+		Training Batch 100: Loss: 0.46854403614997864; Accuracy: 0.84375
+		Training Batch 110: Loss: 0.3939957022666931; Accuracy: 0.9375
+		Training Batch 120: Loss: 0.504775881767273; Accuracy: 0.78125
+		Training Batch 130: Loss: 0.46996888518333435; Accuracy: 0.84375
+		Training Batch 140: Loss: 0.6035955548286438; Accuracy: 0.6875
+		Training Batch 150: Loss: 0.5197815299034119; Accuracy: 0.8125
+		Training Batch 160: Loss: 0.6124740242958069; Accuracy: 0.6875
+		Training Batch 170: Loss: 0.5030743479728699; Accuracy: 0.85
+Training:
+	Loss: 0.5032183589304194; Accuracy: 0.8070220588235294
+		Validation Batch 10: Loss: 0.6445943117141724; Accuracy: 0.65625
+		Validation Batch 20: Loss: 0.587393581867218; Accuracy: 0.7
+Validation:
+	Loss=0.6283851772546768; Accuracy: 0.6646875
+Training epoch #4
+		Training Batch 10: Loss: 0.4308338463306427; Accuracy: 0.90625
+		Training Batch 20: Loss: 0.4715040326118469; Accuracy: 0.875
+		Training Batch 30: Loss: 0.4813520312309265; Accuracy: 0.78125
+		Training Batch 40: Loss: 0.46560460329055786; Accuracy: 0.84375
+		Training Batch 50: Loss: 0.5086470246315002; Accuracy: 0.8125
+		Training Batch 60: Loss: 0.45270904898643494; Accuracy: 0.875
+		Training Batch 70: Loss: 0.4936572015285492; Accuracy: 0.78125
+		Training Batch 80: Loss: 0.41752389073371887; Accuracy: 0.875
+		Training Batch 90: Loss: 0.45479390025138855; Accuracy: 0.84375
+		Training Batch 100: Loss: 0.4611488878726959; Accuracy: 0.84375
+		Training Batch 110: Loss: 0.44047755002975464; Accuracy: 0.875
+		Training Batch 120: Loss: 0.515265941619873; Accuracy: 0.75
+		Training Batch 130: Loss: 0.4504407048225403; Accuracy: 0.84375
+		Training Batch 140: Loss: 0.40383270382881165; Accuracy: 0.9375
+		Training Batch 150: Loss: 0.4684136211872101; Accuracy: 0.84375
+		Training Batch 160: Loss: 0.466943621635437; Accuracy: 0.84375
+		Training Batch 170: Loss: 0.5171874761581421; Accuracy: 0.85
+Training:
+	Loss: 0.45859781941946814; Accuracy: 0.8511397058823529
+		Validation Batch 10: Loss: 0.631334125995636; Accuracy: 0.6875
+		Validation Batch 20: Loss: 0.6151795983314514; Accuracy: 0.7
+Validation:
+	Loss=0.6104817479848862; Accuracy: 0.6896875
+Training epoch #5
+		Training Batch 10: Loss: 0.4865726828575134; Accuracy: 0.8125
+		Training Batch 20: Loss: 0.400564968585968; Accuracy: 0.9375
+		Training Batch 30: Loss: 0.4895443618297577; Accuracy: 0.84375
+		Training Batch 40: Loss: 0.539897620677948; Accuracy: 0.75
+		Training Batch 50: Loss: 0.4109525680541992; Accuracy: 0.90625
+		Training Batch 60: Loss: 0.43508878350257874; Accuracy: 0.875
+		Training Batch 70: Loss: 0.4358963370323181; Accuracy: 0.875
+		Training Batch 80: Loss: 0.34459903836250305; Accuracy: 0.96875
+		Training Batch 90: Loss: 0.39167365431785583; Accuracy: 0.9375
+		Training Batch 100: Loss: 0.3515297770500183; Accuracy: 0.96875
+		Training Batch 110: Loss: 0.4537457823753357; Accuracy: 0.875
+		Training Batch 120: Loss: 0.4293777048587799; Accuracy: 0.90625
+		Training Batch 130: Loss: 0.36649441719055176; Accuracy: 0.9375
+		Training Batch 140: Loss: 0.40516719222068787; Accuracy: 0.9375
+		Training Batch 150: Loss: 0.3924872875213623; Accuracy: 0.9375
+		Training Batch 160: Loss: 0.4812260568141937; Accuracy: 0.84375
+		Training Batch 170: Loss: 0.3454605042934418; Accuracy: 1.0
+Training:
+	Loss: 0.4357787740581176; Accuracy: 0.8772058823529412
+		Validation Batch 10: Loss: 0.6327561140060425; Accuracy: 0.65625
+		Validation Batch 20: Loss: 0.5755358338356018; Accuracy: 0.7333333333333333
+Validation:
+	Loss=0.60425665974617; Accuracy: 0.7007291666666666
+Training epoch #6
+		Training Batch 10: Loss: 0.36131641268730164; Accuracy: 0.96875
+		Training Batch 20: Loss: 0.4377105236053467; Accuracy: 0.90625
+		Training Batch 30: Loss: 0.38472414016723633; Accuracy: 0.96875
+		Training Batch 40: Loss: 0.3897625803947449; Accuracy: 0.9375
+		Training Batch 50: Loss: 0.46950435638427734; Accuracy: 0.84375
+		Training Batch 60: Loss: 0.3869151473045349; Accuracy: 0.9375
+		Training Batch 70: Loss: 0.34790873527526855; Accuracy: 0.96875
+		Training Batch 80: Loss: 0.42358145117759705; Accuracy: 0.90625
+		Training Batch 90: Loss: 0.4410838484764099; Accuracy: 0.84375
+		Training Batch 100: Loss: 0.35870522260665894; Accuracy: 0.9375
+		Training Batch 110: Loss: 0.32063812017440796; Accuracy: 1.0
+		Training Batch 120: Loss: 0.4136753976345062; Accuracy: 0.90625
+		Training Batch 130: Loss: 0.43787601590156555; Accuracy: 0.875
+		Training Batch 140: Loss: 0.42292508482933044; Accuracy: 0.90625
+		Training Batch 150: Loss: 0.3618454039096832; Accuracy: 0.9375
+		Training Batch 160: Loss: 0.47937723994255066; Accuracy: 0.8125
+		Training Batch 170: Loss: 0.5004306435585022; Accuracy: 0.8
+Training:
+	Loss: 0.4091917080037734; Accuracy: 0.904889705882353
+		Validation Batch 10: Loss: 0.5438607931137085; Accuracy: 0.75
+		Validation Batch 20: Loss: 0.5892972350120544; Accuracy: 0.7333333333333333
+Validation:
+	Loss=0.5930217355489731; Accuracy: 0.7085416666666666
+Training epoch #7
+		Training Batch 10: Loss: 0.34379902482032776; Accuracy: 0.96875
+		Training Batch 20: Loss: 0.34309452772140503; Accuracy: 0.96875
+		Training Batch 30: Loss: 0.343974769115448; Accuracy: 0.96875
+		Training Batch 40: Loss: 0.3603435456752777; Accuracy: 0.96875
+		Training Batch 50: Loss: 0.42036640644073486; Accuracy: 0.90625
+		Training Batch 60: Loss: 0.3368052840232849; Accuracy: 0.96875
+		Training Batch 70: Loss: 0.40060490369796753; Accuracy: 0.90625
+		Training Batch 80: Loss: 0.3657231330871582; Accuracy: 0.96875
+		Training Batch 90: Loss: 0.3639012575149536; Accuracy: 0.9375
+		Training Batch 100: Loss: 0.4013735055923462; Accuracy: 0.90625
+		Training Batch 110: Loss: 0.35754016041755676; Accuracy: 0.9375
+		Training Batch 120: Loss: 0.34909915924072266; Accuracy: 0.96875
+		Training Batch 130: Loss: 0.40758147835731506; Accuracy: 0.90625
+		Training Batch 140: Loss: 0.4101024568080902; Accuracy: 0.90625
+		Training Batch 150: Loss: 0.4200119376182556; Accuracy: 0.90625
+		Training Batch 160: Loss: 0.3661916255950928; Accuracy: 0.9375
+		Training Batch 170: Loss: 0.4116167426109314; Accuracy: 0.9
+Training:
+	Loss: 0.3988721884348813; Accuracy: 0.9124632352941177
+		Validation Batch 10: Loss: 0.6559768915176392; Accuracy: 0.65625
+		Validation Batch 20: Loss: 0.6048034429550171; Accuracy: 0.7
+Validation:
+	Loss=0.6186293691396714; Accuracy: 0.6865625
+Training epoch #8
+		Training Batch 10: Loss: 0.45748862624168396; Accuracy: 0.84375
+		Training Batch 20: Loss: 0.36051198840141296; Accuracy: 0.96875
+		Training Batch 30: Loss: 0.41906800866127014; Accuracy: 0.90625
+		Training Batch 40: Loss: 0.41076532006263733; Accuracy: 0.90625
+		Training Batch 50: Loss: 0.40777280926704407; Accuracy: 0.90625
+		Training Batch 60: Loss: 0.49165573716163635; Accuracy: 0.8125
+		Training Batch 70: Loss: 0.3677598834037781; Accuracy: 0.9375
+		Training Batch 80: Loss: 0.41336292028427124; Accuracy: 0.90625
+		Training Batch 90: Loss: 0.3170868456363678; Accuracy: 1.0
+		Training Batch 100: Loss: 0.3145166337490082; Accuracy: 1.0
+		Training Batch 110: Loss: 0.42278122901916504; Accuracy: 0.90625
+		Training Batch 120: Loss: 0.39227768778800964; Accuracy: 0.90625
+		Training Batch 130: Loss: 0.3718917667865753; Accuracy: 0.9375
+		Training Batch 140: Loss: 0.3911723494529724; Accuracy: 0.90625
+		Training Batch 150: Loss: 0.3842453062534332; Accuracy: 0.9375
+		Training Batch 160: Loss: 0.31586578488349915; Accuracy: 1.0
+		Training Batch 170: Loss: 0.3729349374771118; Accuracy: 0.95
+Training:
+	Loss: 0.38352968833025763; Accuracy: 0.9305882352941176
+		Validation Batch 10: Loss: 0.6374476552009583; Accuracy: 0.6875
+		Validation Batch 20: Loss: 0.5659205913543701; Accuracy: 0.7666666666666667
+Validation:
+	Loss=0.6108484625816345; Accuracy: 0.6977083333333334
+Training epoch #9
+		Training Batch 10: Loss: 0.47301578521728516; Accuracy: 0.84375
+		Training Batch 20: Loss: 0.3570807874202728; Accuracy: 0.9375
+		Training Batch 30: Loss: 0.37470996379852295; Accuracy: 0.9375
+		Training Batch 40: Loss: 0.3487280011177063; Accuracy: 0.96875
+		Training Batch 50: Loss: 0.37562036514282227; Accuracy: 0.9375
+		Training Batch 60: Loss: 0.3491165339946747; Accuracy: 0.96875
+		Training Batch 70: Loss: 0.34601473808288574; Accuracy: 0.96875
+		Training Batch 80: Loss: 0.41753172874450684; Accuracy: 0.875
+		Training Batch 90: Loss: 0.3150864243507385; Accuracy: 1.0
+		Training Batch 100: Loss: 0.3450562357902527; Accuracy: 0.96875
+		Training Batch 110: Loss: 0.4090937674045563; Accuracy: 0.90625
+		Training Batch 120: Loss: 0.4113906919956207; Accuracy: 0.90625
+		Training Batch 130: Loss: 0.44758740067481995; Accuracy: 0.84375
+		Training Batch 140: Loss: 0.35026106238365173; Accuracy: 0.96875
+		Training Batch 150: Loss: 0.3719823956489563; Accuracy: 0.9375
+		Training Batch 160: Loss: 0.34793809056282043; Accuracy: 0.9375
+		Training Batch 170: Loss: 0.36394697427749634; Accuracy: 0.95
+Training:
+	Loss: 0.37336195321644056; Accuracy: 0.9408823529411764
+		Validation Batch 10: Loss: 0.528214693069458; Accuracy: 0.78125
+		Validation Batch 20: Loss: 0.6119793057441711; Accuracy: 0.6666666666666666
+Validation:
+	Loss=0.6007582321763039; Accuracy: 0.7005208333333333
+Training epoch #10
+		Training Batch 10: Loss: 0.39775964617729187; Accuracy: 0.90625
+		Training Batch 20: Loss: 0.3849071264266968; Accuracy: 0.90625
+		Training Batch 30: Loss: 0.3289887607097626; Accuracy: 0.96875
+		Training Batch 40: Loss: 0.4334574341773987; Accuracy: 0.90625
+		Training Batch 50: Loss: 0.3811967074871063; Accuracy: 0.9375
+		Training Batch 60: Loss: 0.37600627541542053; Accuracy: 0.9375
+		Training Batch 70: Loss: 0.37272292375564575; Accuracy: 0.9375
+		Training Batch 80: Loss: 0.3231833875179291; Accuracy: 1.0
+		Training Batch 90: Loss: 0.3432404100894928; Accuracy: 0.96875
+		Training Batch 100: Loss: 0.4290318489074707; Accuracy: 0.875
+		Training Batch 110: Loss: 0.38502857089042664; Accuracy: 0.9375
+		Training Batch 120: Loss: 0.3270740211009979; Accuracy: 1.0
+		Training Batch 130: Loss: 0.39389440417289734; Accuracy: 0.90625
+		Training Batch 140: Loss: 0.38163310289382935; Accuracy: 0.90625
+		Training Batch 150: Loss: 0.400499165058136; Accuracy: 0.90625
+		Training Batch 160: Loss: 0.3571911156177521; Accuracy: 0.96875
+		Training Batch 170: Loss: 0.3909876048564911; Accuracy: 0.9
+Training:
+	Loss: 0.3729254871606827; Accuracy: 0.9396691176470588
+		Validation Batch 10: Loss: 0.5722107887268066; Accuracy: 0.71875
+		Validation Batch 20: Loss: 0.6216274499893188; Accuracy: 0.7
+Validation:
+	Loss=0.6079147264361382; Accuracy: 0.6959375
+Best accuracy (0.7085416666666666) obtained at epoch #6.
+<All keys matched successfully>
